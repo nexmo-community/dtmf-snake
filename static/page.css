@@ -1,0 +1,54 @@
+article, aside, details, figcaption, figure, footer, header,
+hgroup, menu, nav, section { 
+  display: block; 
+}
+body {
+  background-color: #202020;
+}
+h1 {
+  font-family: Helvetica;
+  font-weight: 600;
+  text-align: center;
+  color: #eeeeee;
+}
+h2 {
+  font-family: Helvetica;
+  font-weight: 600;
+  text-align: center;
+  color: #eeeeee;
+}
+p {
+  font-family: Helvetica;
+  text-align: center;
+  color: #eeeeee;
+}
+canvas {
+  display: block;
+  margin: 0 auto;
+  background-color: #002744;
+}
+.buttons {
+  display: flex;
+  font-family: Helvetica;
+  font-weight: 400;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin: 0 auto;
+  width: 310px;
+}
+
+.button {
+  border: 1px solid #0033FF;
+  border-radius: 50px;
+  color: #eeeeee;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 26px;
+  height: 80px;
+  line-height: 80px;
+  margin: 10px;
+  text-align: center;
+  width: 80px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
