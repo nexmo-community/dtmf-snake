@@ -19,6 +19,8 @@ class MainHandler(tornado.web.RequestHandler):
     self.render("static/index.html", lvn=LVN, host=HOST)		
 		
 class WSHandler(tornado.websocket.WebSocketHandler):
+  def check_origin(self, origin)
+    return True
   def open(self):
     print("phone connected")
     #Add the connection to the list of connections
